@@ -5,6 +5,14 @@ public class Student extends Person {
     private int year;
     private double fee;
 
+    /**
+     * Tutaj zapisuje dla studenta informacje
+     * @param name
+     * @param address
+     * @param program
+     * @param year
+     * @param fee
+     */
     public Student(String name, String address, String program, int year, double fee){
         super(name,address);
         this.program=program;
