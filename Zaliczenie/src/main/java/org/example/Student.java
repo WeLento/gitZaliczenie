@@ -6,7 +6,7 @@ public class Student extends Person {
     private double fee;
 
     /**
-     * Tutaj zapisuje dla studenta informacje
+     * Tutaj zapisuje informacje o studencie takie jak: Imię, adres, na jaki kierunek chodzi, ile lat, i jaki koszt do zapłacenia jest
      * @param name
      * @param address
      * @param program
