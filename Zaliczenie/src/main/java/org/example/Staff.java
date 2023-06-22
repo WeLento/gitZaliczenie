@@ -4,6 +4,13 @@ public class Staff extends Person {
     private String school;
     private double pay;
 
+    /**
+     * Bierze te osobe i zapisuje do jakiej szkoly chodzil i ile musi zaplacic
+     * @param name
+     * @param address
+     * @param school
+     * @param pay
+     */
     public Staff(String name, String address, String school, double pay){
         super(name, address);
         this.pay=pay;
